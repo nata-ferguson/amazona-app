@@ -1,0 +1,27 @@
+{
+  "name": "amazona",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nata-ferguson/amazona-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nata-ferguson/amazona-app/issues"
+  },
+  "homepage": "https://github.com/nata-ferguson/amazona-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "description": ""
+}
